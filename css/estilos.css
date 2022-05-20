@@ -79,3 +79,8 @@
     text-decoration: none;
     color: #0df053;
     background: #fff; }
+
+    .centrado {
+        display: flex;
+        justify-content: center;
+    }
