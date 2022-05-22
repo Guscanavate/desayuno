@@ -10,7 +10,7 @@
     background-color: black;   
 }
 .crema {
-    background: url(/images/crema.jpg);
+    background-image: url(./images/crema.jpg);
     
 }
 .togo {
