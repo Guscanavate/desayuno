@@ -10,7 +10,7 @@
     background-color: black;   
 }
 .crema {
-    background-image: url(./images/crema.jpg);
+    background-image: url(../images/crema.jpg);
     
 }
 .togo {
@@ -46,7 +46,7 @@
         font-size: larger;
         top: 72px;
         right: 20px;
-        z-index: 100;
+        z-index: 1;
     }
 
 .header {
@@ -58,11 +58,11 @@
 
 }
 .btn-wsp {
-    position: fixed;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    top: 92px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    line-height: 48px;
+    top: 6px;
     right: 180px;
     background: #0df053;
     color: #fff;
@@ -70,7 +70,7 @@
     text-align: center;
     font-size: 30px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-    z-index: 100;
+    z-index: 1;
     border: darkgray 4px; }
   
   .btn-wsp:hover {

@@ -18,3 +18,34 @@
       }, false)
     })
 })()
+//hasta acá codigo de Bootstrap
+
+
+let tazaCafe = 0
+cafe.addEventListener("Onclick",cafe => { (tazaCafe = tazaCafe++)
+});
+
+var counterVal = 0;
+
+function incrementClick() {
+    updateDisplay(++counterVal);
+}
+
+function resetCounter() {
+    counterVal = 0;
+    updateDisplay(counterVal);
+}
+
+function updateDisplay(val) {
+    document.getElementById("counter-label").innerHTML = val;
+}
+
+let div = document.createElement("div");
+let bebidas = document.getElementById("cantidad");
+div.append(counterVal, bebidas);
+
+
+
+
+
+
