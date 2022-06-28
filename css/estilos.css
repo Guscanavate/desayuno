@@ -13,21 +13,14 @@
     background-image: url(../images/crema.jpg);
     
 }
-.togo {
+.pagar {
         position: fixed;     
         top: 72px;
-        right: 20px;
-        z-index: 100;
-    }
-
-    .pagar {
-        position: fixed;     
-        top: 72px;
-        left: 20px;
+        right: 180px;
         width: 55px;
         height: 55px;
         line-height: 55px;
-        z-index: 100;
+        z-index: 110;
     }
 
     .home {
@@ -46,7 +39,7 @@
         font-size: larger;
         top: 72px;
         right: 20px;
-        z-index: 1;
+        z-index:999;
     }
 
 .header {
@@ -56,6 +49,22 @@
         margin-top: 0px;
         padding-top: 0;
 
+}
+.cant {
+    z-index: 100;
+    position: absolute;
+    width: 82px;
+    height: 74px;
+    background-color: rgb(255, 244, 179);
+    border-radius: 50%;
+    border: 1px solid rgb(86, 64, 36);
+    text-align: center;
+    font-size:3rem ;
+    font-family: Calibri;
+    color: rgb(86, 64, 36);
+    font-weight: 600;
+    
+    
 }
 .btn-wsp {
     position: absolute;
@@ -85,7 +94,7 @@
 
     @media (max-width: 768px) {
         .btn-wsp {
-            position: fixed;
+            position: absolute;
             width: 42px;
             height: 42px;
             line-height: 42px;
@@ -123,4 +132,23 @@
         height: 24px;
         z-index: 100;
     }
+}
+
+    .total {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: #fff;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        border: 1px solid #fff;
+        width: 200px;
+        height: 200px;
+    }
+    .centrar {
+        display: grid;
+        justify-items: center;
+        align-items: center;
     }
